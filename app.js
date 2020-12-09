@@ -1,10 +1,9 @@
-const circleBtn = document.querySelector(".circle");
+const toggleBtn = document.querySelector(".header__frequency__toggle-btn");
 
 let isBtnInAction = false;
-circleBtn.addEventListener("click", () => {
+toggleBtn.addEventListener("click", () => {
   if (isBtnInAction) {
     reverseAnimation();
-    console.log(isBtnInAction);
     isBtnInAction = false;
     return false;
   }
@@ -14,14 +13,16 @@ circleBtn.addEventListener("click", () => {
 
 let startAnimation = () => {
   gsap.to(".circle", {
-    x: 23,
-    duration: 0.5,
+    x: 24,
+    duration: 0.25,
+    ease: "back",
   });
 };
 
 let reverseAnimation = () => {
   gsap.to(".circle", {
     x: 0,
-    duration: 0.5,
+    duration: 0.25,
+    ease: "back",
   });
 };

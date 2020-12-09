@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="/css/main.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | [Challenge Name Here]</title>
@@ -28,17 +28,19 @@
   <header class="header">
     <h1 class="header__h1">Our Pricing</h1>
     <p class="header__frequency body-font">Annually</p>
-    <button aria-label="billing frequency"></button>
+    <div class="header__toggle-btn" aria-label="billing frequency button">
+      <div class="circle"></div>
+    </div>
     <p class="header__frequency body-font">Monthly</p>
   </header>
 
   <div class="secondary-card card">
-    <h2 class="secondary-card__title card-title">Basic</h2>
-    <div class="card-price">
-      <div class="dollar">
+    <h2 class="card__title secondary-card__title">Basic</h2>
+    <div class="card__price">
+      <div class="card__price__dollar">
         <p>$</p>
       </div>
-      <div class="price">
+      <div class="card__price__amount">
         <p class="variable-price">19.99</p>
       </div>
     </div>
@@ -53,12 +55,12 @@
   </div>
 
   <div class="main-card card">
-    <h2 class="main-card__title card-title">Professional</h2>
-    <div class="card-price">
-      <div class="dollar">
+    <h2 class="card__title main-card__title">Professional</h2>
+    <div class="card__price">
+      <div class="card__price__dollar">
         <p>$</p>
       </div>
-      <div class="price">
+      <div class="card__price__amount">
         <p class="variable-price">24.99</p>
       </div>
     </div>
@@ -73,12 +75,12 @@
   </div>
 
   <div class="secondary-card card">
-    <h2 class="secondary-card__title card-title">Master</h2>
-    <div class="card-price">
-      <div class="dollar">
+    <h2 class="card__title secondary-card__title">Master</h2>
+    <div class="card__price">
+      <div class="card__price__dollar">
         <p>$</p>
       </div>
-      <div class="price">
+      <div class="card__price__amount">
         <p class="variable-price">39.99</p>
       </div>
     </div>

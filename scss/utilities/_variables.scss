@@ -5,9 +5,13 @@ $secondary-font: roboto, sans-serif;
 
 $linear-gradient1: hsl(236, 72%, 79%);
 $linear-gradient2: hsl(237, 63%, 64%);
+$linear-gradient: linear-gradient(90deg, $linear-gradient1 0%, $linear-gradient2 100%);
 
+/* Background */
 $very-light-grayish-blue: hsl(240, 78%, 98%);
+/* Frequency Options */
 $light-grayish-blue: hsl(234, 14%, 74%);
+
 $grayish-blue: hsl(233, 13%, 49%);
 $dark-grayish-blue: hsl(232, 13%, 33%);
 

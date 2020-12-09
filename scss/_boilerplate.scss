@@ -13,8 +13,9 @@ html {
 }
 
 body {
+  background-color: $very-light-grayish-blue;
   font-family: $main-font;
-  font-size: 1.2rem;
+  font-weight: 700;
   position: relative;
   min-height: 100vh;
   @include flexCenter;

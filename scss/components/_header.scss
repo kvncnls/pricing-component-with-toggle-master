@@ -1,14 +1,35 @@
 .header {
+  @include flexCenter;
+  flex-direction: column;
   &__h1 {
     font-size: $header-size;
+    color: $grayish-blue;
+    margin-bottom: 40px;
   }
   &__frequency {
-    font-size: $body-size;
-  }
-  &__toggle-btn {
-    width: 56px;
-    height: 32px;
-    .circle {
+    @include flexCenter;
+    margin-bottom: 80px;
+    &__option {
+      font-size: $body-size;
+      color: $light-grayish-blue;
+    }
+    &__toggle-btn {
+      width: 56px;
+      height: 32px;
+      background: $linear-gradient;
+      border-radius: 16px;
+      padding-left: 4px;
+      padding-right: 4px;
+      @include row;
+      align-items: center;
+      margin: 0 24px;
+      transition: all 250ms ease-in-out;
+      .circle {
+        width: 24px;
+        height: 24px;
+        background-color: white;
+        border-radius: 12px;
+      }
     }
   }
 }

@@ -1,2 +1,5 @@
 .card {
+  button {
+    @include btnReset;
+  }
 }

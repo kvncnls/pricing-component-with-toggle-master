@@ -15,7 +15,7 @@ let startAnimation = () => {
   gsap.to(".circle", {
     x: 24,
     duration: 0.25,
-    ease: "back",
+    ease: "power1",
   });
 };
 
@@ -23,6 +23,6 @@ let reverseAnimation = () => {
   gsap.to(".circle", {
     x: 0,
     duration: 0.25,
-    ease: "back",
+    ease: "power1",
   });
 };

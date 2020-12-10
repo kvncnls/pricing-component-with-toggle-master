@@ -1,4 +1,19 @@
 .card {
+  min-height: 453px;
+  min-width: 327px;
+  background-color: white;
+  border-radius: 8px;
+  @include flexCenter;
+  &__title {
+    font-size: $card-title-size;
+  }
+  &__title.secondary-card__title {
+    color: $dark-grayish-blue;
+  }
+  &__title.primary-card__title {
+    color: white;
+  }
+  flex-direction: column;
   button {
     @include btnReset;
   }

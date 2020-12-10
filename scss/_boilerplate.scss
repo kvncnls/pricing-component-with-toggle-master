@@ -16,10 +16,6 @@ body {
   background-color: $very-light-grayish-blue;
   font-family: $main-font;
   font-weight: 700;
-  position: relative;
-  min-height: 100vh;
-  @include flexCenter;
-  flex-direction: column;
 }
 
 li {

@@ -1,0 +1,30 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  @include flexCenter;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+header {
+  margin-top: 64px;
+  margin-bottom: 80px;
+  @include _1024 {
+    margin-top: auto;
+  }
+}
+
+.cards {
+  @include flexCenter;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 32px;
+  @include _600 {
+    margin: 0 12px 32px;
+  }
+  @include _1024 {
+    margin: 0 0 32px;
+  }
+}

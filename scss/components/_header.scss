@@ -8,7 +8,6 @@
   }
   &__frequency {
     @include flexCenter;
-    margin-bottom: 80px;
     &__option {
       font-size: $body-size;
       color: $light-grayish-blue;

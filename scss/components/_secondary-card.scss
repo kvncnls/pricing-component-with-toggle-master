@@ -4,10 +4,13 @@
   li {
     color: $dark-grayish-blue;
   }
-  &__title {
-  }
   .learn-more {
     background: $linear-gradient;
     color: white;
+    &:hover {
+      background: transparent;
+      border-color: $linear-gradient2;
+      color: $linear-gradient2;
+    }
   }
 }

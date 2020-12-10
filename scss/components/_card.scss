@@ -10,6 +10,7 @@
   }
   .card__price {
     @include flexCenter;
+    margin-bottom: 26px;
     &__dollar {
       font-size: $dollar-size;
       margin-right: 4px;
@@ -19,6 +20,7 @@
     }
   }
   .features {
+    margin-bottom: 32px;
     &__list {
       &__item {
         min-width: 267px;
@@ -35,12 +37,13 @@
   flex-direction: column;
   .learn-more {
     @include btnReset;
-
     width: 268px;
     height: 44px;
     border-radius: 8px;
+    border: 1px white solid;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.1em;
+    transition: all 150ms ease-in-out;
   }
 }

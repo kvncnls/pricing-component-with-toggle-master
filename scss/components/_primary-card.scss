@@ -1,3 +1,14 @@
 .primary-card {
   background: $linear-gradient;
+  h2,
+  p,
+  li {
+    color: white;
+  }
+  &__title {
+  }
+  .learn-more {
+    background-color: white;
+    color: $linear-gradient2;
+  }
 }

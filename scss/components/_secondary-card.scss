@@ -1,0 +1,13 @@
+.secondary-card {
+  h2,
+  p,
+  li {
+    color: $dark-grayish-blue;
+  }
+  &__title {
+  }
+  .learn-more {
+    background: $linear-gradient;
+    color: white;
+  }
+}

@@ -6,15 +6,41 @@
   @include flexCenter;
   &__title {
     font-size: $card-title-size;
+    margin-bottom: 21px;
   }
-  &__title.secondary-card__title {
-    color: $dark-grayish-blue;
+  .card__price {
+    @include flexCenter;
+    &__dollar {
+      font-size: $dollar-size;
+      margin-right: 4px;
+    }
+    &__amount {
+      font-size: $price-size;
+    }
   }
-  &__title.primary-card__title {
-    color: white;
+  .features {
+    &__list {
+      &__item {
+        min-width: 267px;
+        max-width: 288px;
+        height: 54px;
+        @include flexCenter;
+        border-top: #dcdcdc 1px solid;
+      }
+      &__item:nth-child(3) {
+        border-bottom: #dcdcdc 1px solid;
+      }
+    }
   }
   flex-direction: column;
-  button {
+  .learn-more {
     @include btnReset;
+
+    width: 268px;
+    height: 44px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
   }
 }

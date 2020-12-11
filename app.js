@@ -34,10 +34,6 @@ const basicPrice = document.querySelector(".basic-price p");
 const proPrice = document.querySelector(".pro-price p");
 const masterPrice = document.querySelector(".master-price p");
 
-console.log(basicPrice);
-console.log(proPrice);
-console.log(masterPrice);
-
 function monthlyPrices() {
   basicPrice.textContent = "19.99";
   proPrice.textContent = "24.99";

@@ -26,6 +26,7 @@
       &__item {
         width: 267px;
         height: 54px;
+        font-size: $body-size;
         @include flexCenter;
         border-top: #dcdcdc 1px solid;
         @include _1024 {

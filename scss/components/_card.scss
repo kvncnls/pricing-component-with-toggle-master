@@ -49,5 +49,8 @@
     font-weight: 700;
     letter-spacing: 0.1em;
     transition: all 150ms ease-in-out;
+    @include _1024 {
+      width: 288px;
+    }
   }
 }

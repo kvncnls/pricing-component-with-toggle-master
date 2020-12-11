@@ -1,4 +1,8 @@
 .secondary-card {
+  @include _1024 {
+    width: 350px;
+    height: 453px;
+  }
   h2,
   p,
   li {

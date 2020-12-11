@@ -4,6 +4,10 @@ body {
   @include flexCenter;
   flex-direction: column;
   flex-wrap: nowrap;
+  background: url(/images/bg-bottom.svg) url(/images/bg-top.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }
 
 header {
@@ -17,6 +21,7 @@ header {
 .cards {
   @include flexCenter;
   flex-wrap: wrap;
+  margin-bottom: auto;
 }
 
 .card {

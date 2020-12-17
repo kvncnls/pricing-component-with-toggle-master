@@ -8,10 +8,11 @@ body {
   background-position: bottom left, top right;
   background-repeat: no-repeat;
   background-size: contain contain;
+  padding: 80px 0 0;
 }
 
 header {
-  margin-top: 64px;
+  margin-top: auto;
   margin-bottom: 80px;
   @include _1024 {
     margin-top: auto;
